@@ -1,2 +1,2 @@
 # Assignments
-Assignment answers Ian McLoughlins Programming and Scripting course (Semester 1)
+Assignment answers for Ian McLoughlins Programming and Scripting course (Semester 1)
