@@ -1,2 +1,2 @@
-# week1-week2
-Assignment answers for week 1 &amp; 2
+# Assignments
+Assignment answers Ian McLoughlins Programming and Scripting course (Semester 1)
