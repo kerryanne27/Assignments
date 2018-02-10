@@ -1,0 +1,15 @@
+# Kerryanne Oconnor 06/02/2018
+# 1st attempt at codeing by myself - collatz conjecture
+
+
+
+i = 33
+while i > 1:
+    if i % 2 ==0:
+        i = i*0.5
+        
+    else:
+        i = i*3+1
+
+    print (i)    
+        
