@@ -1,0 +1,12 @@
+# Kerryanne OConnor 08/04/2018
+ 
+#This reads the Iris data set in and prints the four numerical values 
+#with the decimal places aligned, and a space between the columns.
+
+
+import csv
+with open ("iris.csv") as f:
+    reader = csv.reader(f, delimiter=',')
+    for line in reader:
+        print(line[0], line[1], line[2], line[3])
+

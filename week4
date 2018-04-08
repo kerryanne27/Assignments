@@ -1,0 +1,15 @@
+#Kerryanne O'Connor 05/03/2018
+# project euler problem no 5 - What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+# adapted from https://stackoverflow.com/questions/23466931/euler-5-smalest-number-that-can-be-divided-by-numbers-from-1-to-20
+
+
+primes = [2,3,5,7,11,13,17,19]
+prod = 1 
+for p in primes:
+    n = 2
+    prod *= p
+    while (p**n < 21):
+        prod *= p
+        n += 1
+
+print ("the smallest number divisble by numbers 1-20 is:", prod)
